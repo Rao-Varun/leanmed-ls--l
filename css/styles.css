@@ -1,0 +1,43 @@
+body {
+	background-color: #fbfbfb;
+}
+.nav-active {
+	background-color: #008DB7;
+}
+.header-color {
+	background-color: #2E4357;
+	border: none !important;
+}
+.header-color>li>a {
+	color: white !important;
+}
+
+#searchBtn{
+	background-color: #337AB7;
+}
+
+.header-color>li>a:HOVER {
+	background-color: #eee !important;
+	color: black !important;
+}
+.ui-autocomplete-loading {
+	  width: 100%;
+	  height: 20px;
+	  margin-top: 8px;
+}
+.margin-style{
+	margin-top: 36px !important;
+}
+.footer{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #2E4357;
+    color: white;
+}
+.text-muted{
+	margin: 18px 0px;
+	color: white;
+	text-align: center;
+}

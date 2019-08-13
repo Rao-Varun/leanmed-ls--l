@@ -1,0 +1,1 @@
+[31-Jul-2019 03:40:38 America/Chicago] PHP Fatal error:  Class 'CI_Model' not found in /home2/elidiaz/public_html/leanmed/application/controllers/Request.php on line 2

@@ -1,0 +1,20 @@
+$( document).ready(function() {
+  $('#houseIdDiv').hide();
+  $('#houseKeyDiv').hide();
+  $('#houseNameDiv').hide();
+  $('#houseDescDiv').hide();
+});
+$('#userType').on('change',function(){
+	if($('#userType').val()==1){
+		$('#houseIdDiv').hide();
+  		$('#houseKeyDiv').hide();
+  		$('#houseNameDiv').show();
+  		$('#houseDescDiv').show();
+	}
+	else{
+		$('#houseIdDiv').show();
+  		$('#houseKeyDiv').show();
+  		$('#houseNameDiv').hide();
+  		$('#houseDescDiv').hide();
+	}
+})
